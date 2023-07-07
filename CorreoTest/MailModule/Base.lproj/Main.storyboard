@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x4N-Yb-qnA">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mail View Controller-->
+        <scene sceneID="j1B-nP-UYC">
+            <objects>
+                <viewController storyboardIdentifier="MailViewController" id="x4N-Yb-qnA" customClass="MailViewController" customModule="CorreoTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X9V-V5-TRk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="2Ye-LZ-3pd">
+                                <rect key="frame" x="0.0" y="59" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="x4N-Yb-qnA" id="m00-hV-rbw"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ys2-yZ-fXT">
+                                <rect key="frame" x="0.0" y="115" width="393" height="703"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HON-cK-XuH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HON-cK-XuH" firstAttribute="trailing" secondItem="2Ye-LZ-3pd" secondAttribute="trailing" id="ArF-8e-lgu"/>
+                            <constraint firstItem="HON-cK-XuH" firstAttribute="bottom" secondItem="Ys2-yZ-fXT" secondAttribute="bottom" id="CDq-41-l78"/>
+                            <constraint firstItem="2Ye-LZ-3pd" firstAttribute="top" secondItem="HON-cK-XuH" secondAttribute="top" id="DVZ-Kb-hbZ"/>
+                            <constraint firstItem="2Ye-LZ-3pd" firstAttribute="leading" secondItem="HON-cK-XuH" secondAttribute="leading" id="I1n-ou-DhP"/>
+                            <constraint firstItem="Ys2-yZ-fXT" firstAttribute="leading" secondItem="HON-cK-XuH" secondAttribute="leading" id="dWi-tz-gxL"/>
+                            <constraint firstItem="Ys2-yZ-fXT" firstAttribute="top" secondItem="2Ye-LZ-3pd" secondAttribute="bottom" id="mxF-WG-5uk"/>
+                            <constraint firstItem="HON-cK-XuH" firstAttribute="trailing" secondItem="Ys2-yZ-fXT" secondAttribute="trailing" id="xby-kO-NEf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mEmailsTableView" destination="Ys2-yZ-fXT" id="hzh-M6-yGz"/>
+                        <outlet property="mSearch" destination="2Ye-LZ-3pd" id="b3a-U8-oy7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFK-kB-1t6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-361" y="-13"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

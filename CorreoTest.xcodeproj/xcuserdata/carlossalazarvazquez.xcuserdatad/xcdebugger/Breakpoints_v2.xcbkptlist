@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63D7D664-2A0C-45A1-A91A-C2664F594B67"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4BA582E-D2AD-42A2-8D4E-9A16099B52ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorreoTest/DataSource/ListMailDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "selectDelete(mPosSelected:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4BA582E-D2AD-42A2-8D4E-9A16099B52ED - 4c2b33c4ea479438"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorreoTest.ListMailDataSource.selectDelete(mPosSelected: Swift.Int) -&gt; ()"
+                  moduleName = "CorreoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlossalazarvazquez/CorreoTest/CorreoTest/DataSource/ListMailDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "E4BA582E-D2AD-42A2-8D4E-9A16099B52ED - 4c2b33c4ea479438"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorreoTest.ListMailDataSource.selectDelete(mPosSelected: Swift.Int) -&gt; ()"
+                  moduleName = "CorreoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlossalazarvazquez/CorreoTest/CorreoTest/DataSource/ListMailDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "E4BA582E-D2AD-42A2-8D4E-9A16099B52ED - 4c2b33c4ea47941b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorreoTest.ListMailDataSource.selectDelete(mPosSelected: Swift.Int) -&gt; ()"
+                  moduleName = "CorreoTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlossalazarvazquez/CorreoTest/CorreoTest/DataSource/ListMailDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5144E909-4B88-488D-A9EA-A2F18B8868E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorreoTest/MailModule/MailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D6D82C2-B06F-43D3-B27B-03A7DE3C8CEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorreoTest/MailModule/MailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "displayMails(mResponse:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71992E16-E06B-4CC2-9295-7B2750D9B3E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorreoTest/MailModule/MailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "displayMails(mResponse:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
